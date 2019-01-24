@@ -144,7 +144,7 @@ coeff_mod_mlr_default_all
 print("Coefficient of Determination R-squared: ", mod_mlr_default_all.score(X1, y1)*100)
 
 
-#Model 2 : building MLR model using all the predictors on the dataset having active customers¶
+#Model 2 : building MLR model using all the predictors on the dataset having active customersÂ¶
 X2 = encd_active_credit_df.iloc[:,:-1]
 y2 = encd_active_credit_df.Balance
 mod_mlr_active_all = LinearRegression()
